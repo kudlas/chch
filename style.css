@@ -1,0 +1,35 @@
+#bar
+{
+height: 500px;
+overflow-y: scroll;
+float:left;
+width:80%;
+}
+
+#onlines
+{
+height: 500px;
+float:left;
+width:15%;
+padding-left:15px;
+}
+
+#onlines {
+    list-style: none;
+}
+
+#onlines li { 
+    padding-left: 1em; 
+    text-indent: -.7em;
+}
+
+#onlines li:before {
+    content: "• ";
+    color: #1DF20A; /* or whatever color you prefer */
+}
+
+
+form
+{
+clear:both;
+}
